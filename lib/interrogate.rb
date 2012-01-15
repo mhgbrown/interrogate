@@ -1,6 +1,6 @@
 require "interrogate/version"
 
-# String?(\"Hello\")
+# String?("Hello")
 # Interrogate attempts to bring Scheme-like class predication to Ruby.
 # It provides an alternate syntax using Module#===
 module Interrogate
