@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.email       = ["brown.mhg@gmail.com"]
   s.homepage    = "https://github.com/mhgbrown/interrogate"
   s.summary     = "Scheme-like class predication for Ruby"
-  s.description = "String?(\"Hello\") Interrogate attempts to bring Scheme-like class predication to Ruby."
+  s.description = "String?(\"Hello\") Interrogate attempts to bring Scheme-like class predication to Ruby. It provides an alternate syntax using Module#==="
 
   s.rubyforge_project = "interrogate"
 
