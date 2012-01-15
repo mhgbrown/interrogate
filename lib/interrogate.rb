@@ -8,9 +8,9 @@ module Interrogate
   # Given an interrogatory method name and arguments,
   # determine which class we are asking about and
   # ask each arg if it is an instance of this class.
-  def self.interrogate(meth, *args)
+  def self.interrogate(method, *args)
     raise ArgumentError, "#{method}: wrong number of arguments (#{args.length} for 1)" if args.length < 1
-    klass_name = meth.to_s.tr("?", "")
+    klass_name = method.to_s.tr("?", "")
     klass = Object.const_get(klass_name)
     args.inject(true){|bool, obj| bool && klass === obj}
   end
