@@ -7,9 +7,9 @@ Gem::Specification.new do |s|
   s.version     = Interrogate::VERSION
   s.authors     = ["Morgan Brown"]
   s.email       = ["brown.mhg@gmail.com"]
-  s.homepage    = ""
+  s.homepage    = "https://github.com/mhgbrown/interrogate"
   s.summary     = "Scheme-like class predication for Ruby"
-  s.description = "String?(\"Hello!\") Interrogate attempts to bring Scheme-like class predication to Ruby."
+  s.description = "String?(\"Hello\") Interrogate attempts to bring Scheme-like class predication to Ruby."
 
   s.rubyforge_project = "interrogate"
 
