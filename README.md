@@ -15,5 +15,13 @@ You can "interrogate" multiple objects as well:
 	>> String?("Hello", "World", "1.0")
 	>> true
 
+And you can "interrogate" the return value of a block:
+
+	>> num = 1
+	>> String?("Hello") { num }
+	>> false
+	>> String?("Hello") { num.to_s }
+	>> true
+
 ## Feedback
 Use that Github [issue tracker](https://github.com/mhgbrown/interrogate/issues)!
