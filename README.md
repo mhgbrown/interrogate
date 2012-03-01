@@ -1,6 +1,7 @@
 # Interrogate [![Build Status](https://secure.travis-ci.org/mhgbrown/interrogate.png)](http://travis-ci.org/mhgbrown/interrogate)
 Interrogate attempts to bring Scheme-like class predication to Ruby.  It provides an alternate syntax using `Module#===`.
 
+	>> require "interrogate"
 	>> String?("Hello")
 	>> trues
 	>> Symbol?(:World)
