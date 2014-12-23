@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.version     = Interrogate::VERSION
   s.authors     = ["Morgan Brown"]
   s.email       = ["brown.mhg@gmail.com"]
-  s.homepage    = "https://github.com/discom4rt/interrogate"
+  s.homepage    = "https://github.com/mhgbrown/interrogate"
   s.summary     = "Scheme-like class predication for Ruby"
   s.description = "String?(\"Hello\") Interrogate attempts to bring Scheme-like class predication to Ruby. It provides an alternate syntax using Module#==="
 
